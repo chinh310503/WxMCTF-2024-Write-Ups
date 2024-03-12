@@ -33,7 +33,7 @@ Flag: wxmctf{ok4Y_M4y8e_I_5K1mpED_@_bit}
 
 Đọc code trang web, ta nhận thấy trang web đang bị lỗi Server-side parameter pollution, có thể xem thêm tại đây: https://portswigger.net/web-security/api-testing/server-side-parameter-pollution
 
-Ta dùng burpsuite để sửa request, thêm &amount = 1000000 vào trong request. Cuối cùng nhận được Flag:
+Ta dùng burpsuite để sửa request, thêm &amount = -1000000 vào trong request. Cuối cùng nhận được Flag:
 
 ![image](https://github.com/chinh310503/WxMCTF-2024-Write-Ups/assets/90301956/83e3e128-9c29-4184-9b30-14cb57e54446)
 
