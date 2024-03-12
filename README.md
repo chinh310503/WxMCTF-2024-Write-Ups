@@ -17,7 +17,8 @@ Flag: wxmctf{4nd_h1s_n4me_1s!!!!!!!}
 
 Trong source code của trang web ta thấy được một Fake Flag ở trong Dockerfile.
 
-![image](https://github.com/chinh310503/WxMCTF-2024-Write-Ups/assets/90301956/4dbf34c8-782d-4a4e-a519-be7655d53e47)
+![image](https://github.com/chinh310503/WxMCTF-2024-Write-Ups/assets/90301956/ce0846a7-da1e-4d1f-be3b-04a12bb64353)
+
 
 Điều này cũng gợi ý trong Dockerfile của trang web đang chạy sẽ giữ flag. Ta thực hiện chạy code python để xem file Dockerfile và lấy được flag
 
